@@ -1,0 +1,17 @@
+package java_basics;
+
+public class array 
+{
+	public static void main(String[] args) 
+	{
+		int [] arr = new int [5];
+		
+		arr[0]= 1;
+		arr[1]=2;
+		for(int s=0;s<arr.length;s++)
+			System.out.println(arr[s]);
+	
+	
+}
+
+}

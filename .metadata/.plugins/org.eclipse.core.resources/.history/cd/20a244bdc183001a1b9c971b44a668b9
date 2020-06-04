@@ -1,0 +1,10 @@
+package priorities;
+
+public class Join1Demo {
+
+	public static void main(String[] args) 
+	{
+		Join1.mt = Thread.currentThread();
+	}
+
+}

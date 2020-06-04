@@ -1,0 +1,5 @@
+package priorities;
+
+public class Mythread extends Thread {
+
+}

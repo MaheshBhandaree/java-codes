@@ -1,0 +1,82 @@
+package ElevenApril;
+
+import java.util.Scanner;
+
+public class TwoDArray {
+
+	public static void main(String[] args) 
+	{	int i,j;
+		int sum=0;
+				
+		int arr[][] = new int[10][10];
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The NO of Rows");
+		int rows = sc.nextInt();
+		System.out.println("Enter The no of Columns");
+		int columns = sc.nextInt();
+		System.out.println("The no OF "+(rows*columns)+"array Elements Enter");
+		for( i = 0;i<rows;i++)
+		{
+			for(  j= 0;j<columns;j++)
+			{
+				arr[i][j] = sc.nextInt();
+			}
+			
+		}
+		for( i = 0;i<rows;i++)
+		{
+			for(  j= 0;j<columns;j++)
+			{
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
+			System.out.println("Enter The Element That search in array");
+			int no = sc.nextInt();
+			for( i = 0;i<rows;i++)
+			{
+				for(  j= 0;j<columns;j++)
+				{
+						if(no == arr[i][j])
+						System.out.println();
+					if(no == arr[i][j])
+					{
+						System.out.println("row = " + i); 
+						System.out.println("column = "+j);
+					}
+				}
+				
+			}
+			System.out.println("The sum of Diagonal Elements are");
+			for( i = 0;i<rows;i++)
+			{
+				for(  j= 0;j<columns;j++)
+				{
+					if(rows == columns)
+					{
+						sum +=arr[i][j];
+						 System.out.println("Diagonal Sum1" +sum);
+					}
+					if((rows + columns)==(rows*columns))
+					{
+						sum +=arr[i][j];
+						 System.out.println("Diagonal2 Sum1" +sum);
+					}
+					
+					}
+						 
+				
+				}
+			
+		}
+	}	
+
+		/*System.out.println("Enter The Element That search in array");
+		int no = sc.nextInt();
+		if(no == arr[i][j])
+		{
+			 System.out.println("row = " + i); 
+			 System.out.println("column = "+j);*/
+
+
+

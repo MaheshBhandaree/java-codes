@@ -1,0 +1,21 @@
+package SingleTonePattern;
+
+public class AppConfig{
+	private AppConfig()
+	{
+		
+	}
+	private static AppConfig obj = new AppConfig();
+	private static AppConfig getInstance() {
+		return obj;
+		
+	}
+	public static void main(String[] args) {
+		AppConfig obj1 =new AppConfig();
+		AppConfig obj2 =new AppConfig();
+	}
+
+}
+
+
+

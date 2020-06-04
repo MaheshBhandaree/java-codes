@@ -1,0 +1,26 @@
+package java_basics;
+
+public class array 
+{
+	public static void main(String[] args) 
+	{
+		int [] arr = new int [5];
+		try {
+		arr[0]= 1;
+		arr[1]=2;
+		arr[2]=3;
+		arr[3]=4;
+		arr[4]= 5;
+		arr[5]=0;
+		for(int s=0;s<arr.length;s++)
+			System.out.println(arr[s]);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	
+	
+}
+
+}

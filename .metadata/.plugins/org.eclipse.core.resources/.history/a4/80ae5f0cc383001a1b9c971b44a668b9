@@ -1,0 +1,19 @@
+package priorities;
+
+public class Join1Demo {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		Join1.mt = Thread.currentThread();
+		Join1 j = new Join1();
+		j.start();
+		j.join();
+		for(int i=0 ;i<10;i++)
+		{
+			System.out.println("main  Thread");
+			Thread.sleep(1000);
+		}
+				
+	}
+
+}

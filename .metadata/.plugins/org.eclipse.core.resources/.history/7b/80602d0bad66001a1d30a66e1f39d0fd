@@ -1,0 +1,26 @@
+package java_basics;
+
+public class array 
+{
+	public static void main(String[] args) 
+	{
+		/*String [] arr = new String [5];
+		try {
+		arr[0]= "mahesh";
+		arr[1]="john";
+		arr[2]="asd";
+		arr[3]="adfa";
+		arr[4]= "asad";
+		//arr[5]="asd";
+		for(int s=0;s<arr.length;s++)
+			System.out.println(arr[s]);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}*/
+	
+	
+}
+
+}

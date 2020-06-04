@@ -1,0 +1,8 @@
+
+public class SingleTonePattern{
+	public static void main(String[] args) {
+		SingleTonePattern obj1 =new  SingleTonePattern();
+		SingleTonePattern obj2 =new SingleTonePattern();
+	}
+
+}

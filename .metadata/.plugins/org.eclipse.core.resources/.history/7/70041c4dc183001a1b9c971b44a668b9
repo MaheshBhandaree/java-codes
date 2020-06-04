@@ -1,0 +1,17 @@
+package priorities;
+
+public class Join1 extends Thread
+{
+	public Thread mt;
+	public void run()
+	{
+		try {
+			mt.join();
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+
+}

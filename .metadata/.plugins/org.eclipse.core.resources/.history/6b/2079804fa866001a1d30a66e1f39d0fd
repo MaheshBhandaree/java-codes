@@ -1,0 +1,15 @@
+package java_basics;
+
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args)
+	{int num=0;
+		System.out.println("Enter the no:");
+		Scanner sc = new Scanner(System.in);
+		num = sc.nextint
+
+	}
+
+}
